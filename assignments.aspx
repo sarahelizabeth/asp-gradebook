@@ -1,6 +1,7 @@
+﻿<%@ Page Language="C#" Inherits="GradesOnline.assignments" %>
 <!DOCTYPE html>
 <html>
-	<head>
+	<head runat="server">
   	<meta charset="utf-8">
 
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
@@ -15,29 +16,6 @@
         });
     </script>
   </head>
-  
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="./">MyGrades</a>
-      </div>
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="home.html">Announcements</a></li>
-          <li><a href="grades.html">Grades</a></li>
-          <li class="active"><a href="assignments.html">Assignments</a></li>
-          <li><a href="graphs.html">Graphs</a></li>
-          <li><a href="manage.html">Manage</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   
   <body>
     <div class="container">
