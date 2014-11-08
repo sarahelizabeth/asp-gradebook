@@ -19,18 +19,18 @@
               </tr>
               <tr>
                 <td>1</td>
-                <td>Project</td>
+                <td>Homework 1</td>
                 <td>10/1/2014</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Homework</td>
-                <td>10/5/2014</td>
+                <td>Homework 2</td>
+                <td>10/27/2014</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Practice</td>
-                <td>10/7/2014</td>
+                <td>Project</td>
+                <td>11/15/2014</td>
               </tr>
             </table>
           </div>
@@ -48,6 +48,10 @@
               <div class="form-group">
                 <label for="inputAssignmentText">Enter Assignment Text:</label>
                 <textarea class="form-control" id="inputAssignmentText" rows="5"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="inputFile">File input</label>
+                <input type="file" id="inputFile">
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>

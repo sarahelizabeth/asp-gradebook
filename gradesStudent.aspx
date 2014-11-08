@@ -36,16 +36,16 @@
                 <td>95</td>
               </tr>
               <tr>
-                <td>Homework 3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>80</td>
-              </tr>
-              <tr>
                 <td>Exam 2</td>
                 <td>90</td>
                 <td>110</td>
                 <td>81</td>
+              </tr>
+              <tr>
+                <td>Project</td>
+                <td>89</td>
+                <td>100</td>
+                <td>89</td>
               </tr>
             </table>
           </div>

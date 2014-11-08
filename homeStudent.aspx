@@ -9,10 +9,20 @@
 <body>
     <div class="container">
       <div class="row">
+        <h1>Welcome, Student!</h1>
+          <br>
+        <h3>Announcements</h3>
         <div id="annoucements" class="col-md-8 col-md-offset2">
-          <ul>
-            <li>Hello, class. This is an annoucement.</li>
-          <ul>
+          <table class="table">
+            <tr>
+              <th>Date</th>
+              <th>Message</th>
+            </tr>
+            <tr>
+              <td>9/3/14</td>
+              <td>Hello, class. This is an annoucement.</td>
+            </tr>
+          <table>
         </div>
       </div>
     </div>

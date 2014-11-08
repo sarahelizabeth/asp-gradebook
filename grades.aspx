@@ -16,13 +16,13 @@
 		      <div class="listGrades">
 		        <table class="table">
 		          <tr>
-		            <th>Name</th>
-		            <th>ID</th>
-		            <th>Homework 1</th>
-		            <th>Homework 2</th>
-		            <th>Exam 1</th>
-		            <th>Homework 3</th>
-		            <th>Exam 2</th>
+                <th>Name</th>
+                <th>ID</th>
+                <th>Homework 1</th>
+                <th>Homework 2</th>
+                <th>Exam 1</th>
+                <th>Exam 2</th>
+                <th>Project</th>
 		          </tr>
 		          <tr>
 		            <td>Sarah</td>
@@ -70,8 +70,8 @@
                   <option>Homework 1</option>
                   <option>Homework 2</option>
                   <option>Exam 1</option>
-                  <option>Homework 3</option>
                   <option>Exam 2</option>
+                  <option>Project</option>
                 </select>
               </div>
               <div class="form-group">
