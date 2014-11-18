@@ -48,24 +48,34 @@
           <div class="listAssignments">
             <table class="table">
               <tr>
-                <th>Number</th>
-                <th>Name</th>
+                <th>Assignment ID</th>
+                <th>Type</th>
                 <th>Due Date</th>
+                <th>Points Possible</th>
               </tr>
               <tr>
                 <td>1</td>
-                <td>Homework 1</td>
+                <td>Homework</td>
                 <td>10/1/2014</td>
+                <td>10</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Homework 2</td>
+                <td>Homework</td>
                 <td>10/27/2014</td>
+                <td>20</td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Project</td>
                 <td>11/15/2014</td>
+                <td>80</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Exam</td>
+                <td>11/20/2014</td>
+                <td>100</td>
               </tr>
             </table>
           </div>
@@ -74,8 +84,17 @@
             <h3>Create Assignment</h3>
             <form role="form">
               <div class="form-group">
-                <label for="inputAssignment">Assignment Name</label>
-                <input class="form-control" id="inputAssignment" placeholder="Name">
+                <label for="assignmentType">Select Type</label>
+                <select class="form-control" id="assignmentType">
+                  <option>Homework</option>
+                  <option>Quiz</option>
+                  <option>Exam</option>
+                  <option>Project</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="maxPoints">Points Possible</label>
+                <input type="number" class="form-control" id="assignmentID" placeholder="Maximum">
               </div>
               <div class="form-group">
                 <label for="inputDueDate">Due Date</label>
